@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // Use the routing inside the app-root
+  template: ` <router-outlet> </router-outlet> `
 })
-export class AppComponent {
-  title = 'plasmic';
-}
+export class AppComponent {}
